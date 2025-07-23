@@ -2,16 +2,14 @@ import { getProductos } from "@/adapter/helpers/getProductos";
 
 export default async function Home(){
 
-  const data = await getProductos();
-  console.log(data.data[0]);
-  const { cover, name } = data.data[0];
+  const {image,title} = await getProductos();
 
   return (
     <main className="grid place-items-center h-screen">
       <section>
         <header>
-          <h1>Welcome to Our Store</h1>
-          <img src={cover} alt={name} className="grid w-100 h-100" />
+          <h1>{title}</h1>
+          <img src={image} alt="" className="grid w-100 h-100" />
         </header>
       </section>
     </main>

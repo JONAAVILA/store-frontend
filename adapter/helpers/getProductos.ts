@@ -1,6 +1,14 @@
 import { strapi } from "../strapi";
+const { STRAPI_URL } = process.env
 
 export const getProductos = async () => {
-    const response = await strapi("product-categories?populate=cover");
-    return response;
+    return strapi('product?populate=cover')
+        .then(res => {
+            const { cover, title } = res.data
+            const image = `${STRAPI_URL}${cover[0].url}`
+            return {
+                image,
+                title
+            }
+        })
 }
