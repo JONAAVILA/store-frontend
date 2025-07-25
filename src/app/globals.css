@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --background: #F5F5F5;
+  --foreground: #1E1E1E;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: #1E1E1E;
+    --foreground: #F5F5F5;
+  }
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('../assets/fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-MediumItalic';
+  src: url('../assets/fonts/Montserrat-MediumItalic.ttf');
+}
+@font-face {
+  font-family: 'Montserrat-Black';
+  src: url('../assets/fonts/Montserrat-Black.ttf');
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Montserrat-Medium', sans-serif;
+}
+h1{
+  font-family: 'Montserrat-Black';
+  font-size: 60px;
+  line-height: 1;
+}
