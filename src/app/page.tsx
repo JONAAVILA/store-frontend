@@ -2,7 +2,7 @@
 export default async function Home(){
 
   return (
-    <main className="grid place-items-center h-screen">
+    <main className="grid">
       <section>
         <header>
           <h1>BABY STORE</h1>

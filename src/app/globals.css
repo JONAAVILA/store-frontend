@@ -29,11 +29,6 @@
   src: url('../assets/fonts/Montserrat-Black.ttf');
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: 'Montserrat-Medium', sans-serif;
-}
 h1{
   font-family: 'Montserrat-Black';
   font-size: 60px;
