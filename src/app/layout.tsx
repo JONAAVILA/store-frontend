@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="grid align-top justify-center text-center py-10 text-neutral-800 bg-amber-50" >
         {children}
       </body>
     </html>

@@ -31,6 +31,14 @@
 
 h1{
   font-family: 'Montserrat-Black';
-  font-size: 60px;
+  font-size: 65px;
   line-height: 1;
+}
+h2{
+  font-family: 'Montserrat-MediumItalic';
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+h3{
+  font-size: 18px;
 }

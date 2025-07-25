@@ -1,3 +1,16 @@
 {
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "tailwindCSS.includeLanguages": {
+        "typescript": "javascript",
+        "typescriptreact": "javascript",
+        "html": "html"
+    },
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "tailwindCSS.experimental.classRegex": [
+        ["className\\s*=\\s*\"([^\"]*)", 1],      // className="..."
+        ["className\\s*=\\s*`([^`]*)", 1],        // className=`...`
+        ["className:\\s*'([^']*)", 1]             // className: '...'
+    ]
 }
