@@ -3,6 +3,8 @@
 :root {
   --background: #F5F5F5;
   --foreground: #1E1E1E;
+  --action: #57A6D7;
+  --actionHover: #1e5475;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
