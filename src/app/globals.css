@@ -3,31 +3,16 @@
 
 :root {
   --background: #F5F5F5;
-  --foreground: #1E1E1E;
+  --foreground: #313131;
   --action: #ff9898;
   --actionHover: #1c5b80;
 }
 
-@font-face {
-  font-family: 'Montserrat-Medium';
-  src: url('../assets/fonts/Montserrat-Medium.ttf');
-}
-@font-face {
-  font-family: 'Montserrat-MediumItalic';
-  src: url('../assets/fonts/Montserrat-MediumItalic.ttf');
-}
-@font-face {
-  font-family: 'Montserrat-Black';
-  src: url('../assets/fonts/Montserrat-Black.ttf');
-}
-
 h1{
-  font-family: 'Montserrat-Black';
-  font-size: 65px;
+  font-size: 80px;
   line-height: 1;
 }
 h2{
-  font-family: 'Montserrat-MediumItalic';
   font-size: 25px;
   letter-spacing: 5px;
 }

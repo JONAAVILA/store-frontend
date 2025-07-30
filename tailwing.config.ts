@@ -6,7 +6,12 @@ export default {
     './pages/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        lilita:['var(--font-lilita)','sans-serif'],
+        montserrat:['var(--font-montserrat)','sans-serif']
+      }
+    },
   },
   plugins: [],
 }

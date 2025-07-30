@@ -1,6 +1,19 @@
 import type { Metadata } from "next";
+import { Lilita_One, Montserrat } from 'next/font/google'
 import Navbar from "../components/Navbar";
 import "./globals.css";
+
+const lilita = Lilita_One({
+  weight:'400',
+  subsets:["latin"],
+  variable:'--font-lilita'
+})
+
+const montserrat = Montserrat({
+  weight: '200',
+  subsets: ["latin"],
+  variable:'--font-montserrat'
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="">
+    <html lang="en" className={`${lilita.variable} ${montserrat.variable}`}>
       <body className="grid align-top justify-center text-center text-[var(--foreground)] py-2 bg-[var(--background)] dark:bg-[var(--foreground)] dark:text-[var(--background)] transition-colors duration-300" >
         <Navbar/>
         {children}
