@@ -6,16 +6,18 @@
   --foreground: #313131;
   --action: #ff9898;
   --actionHover: #1c5b80;
+
+  font-weight: 700;
 }
 
 h1{
-  font-size: 80px;
+  font-size: 90px;
   line-height: 1;
 }
 h2{
-  font-size: 25px;
-  letter-spacing: 5px;
+  font-size: 22px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: 4px;
 }
-h3{
-  font-size: 18px;
-}
+

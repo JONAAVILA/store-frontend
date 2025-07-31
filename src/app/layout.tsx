@@ -3,16 +3,14 @@ import { Lilita_One, Montserrat } from 'next/font/google'
 import Navbar from "../components/Navbar";
 import "./globals.css";
 
-const lilita = Lilita_One({
+export const lilita = Lilita_One({
   weight:'400',
-  subsets:["latin"],
-  variable:'--font-lilita'
+  subsets:['latin'],
 })
 
-const montserrat = Montserrat({
-  weight: '200',
-  subsets: ["latin"],
-  variable:'--font-montserrat'
+export const montserrat = Montserrat({
+  weight: ['700','400'],
+  subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
@@ -26,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${lilita.variable} ${montserrat.variable}`}>
+    <html lang="en" className={`${montserrat.className}`}>
       <body className="grid align-top justify-center text-center text-[var(--foreground)] py-2 bg-[var(--background)] dark:bg-[var(--foreground)] dark:text-[var(--background)] transition-colors duration-300" >
         <Navbar/>
         {children}
