@@ -16,6 +16,7 @@
 h1{
   font-size: 80px;
   line-height: 1;
+  text-wrap: balance;
 }
 h2{
   font-size: 22px;

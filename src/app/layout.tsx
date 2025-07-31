@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${montserrat.className} dark`}>
+    <html lang="en" className={`${montserrat.className}`}>
       <body className="grid align-top justify-center text-center text-[var(--secundary)] py-2 bg-[var(--primary)] dark:bg-[var(--dark-bg)] dark:text-[var(--actionHover)] transition-colors duration-300" >
         <Navbar/>
         {children}
