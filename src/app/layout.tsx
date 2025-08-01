@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Lilita_One, Montserrat } from 'next/font/google'
+import { Archivo_Black, Montserrat } from 'next/font/google'
 import Navbar from "../components/Navbar";
 import "./globals.css";
 
-export const lilita = Lilita_One({
+export const archivoBlack = Archivo_Black({
   weight:'400',
   subsets:['latin'],
 })
