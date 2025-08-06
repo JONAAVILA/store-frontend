@@ -2,9 +2,11 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  --primary: #F5F5F5;
-  --secundary: #252525;
+  --primary: #f3eeee;
+  --secundary: #3a3a3a;
+  --border:#818181;
   --action: #7ebaff;
+  --white:#FFFFFF;
   --actionHover: #ff68f2;
 
   --dark:#0b2736;
@@ -26,7 +28,13 @@ h2{
   margin-block: 2px;
 }
 input{
+  outline: none;
   width: 240px;
-  border: solid 1px var(--dark);
+  border: solid 2px var(--white);
+  background-color: var(--action);
+  border-radius: 15px;
+  font-size: 12px;
+  padding: 5px 10px;
+  color: var(--secundary);
 }
 
