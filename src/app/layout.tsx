@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.className}`}>
-      <body className="grid align-top justify-center text-center text-[var(--secundary)] py-2 bg-[var(--primary)] dark:bg-[var(--dark-bg)] dark:text-[var(--actionHover)] transition-colors duration-300" >
+      <body className="grid align-top justify-center text-center text-[var(--secundary)] py-2 bg-[var(--primary)] dark:bg-[var(--dark)] dark:text-[var(--dark)] transition-colors duration-300" >
         <Navbar/>
         {children}
       </body>

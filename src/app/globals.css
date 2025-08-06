@@ -4,26 +4,29 @@
 :root {
   --primary: #F5F5F5;
   --secundary: #252525;
-  --action: #c695e7;
-  --actionHover: #1c5b80;
+  --action: #7ebaff;
+  --actionHover: #ff68f2;
 
-  --dark-bg:#0b2736;
-  --dark-text:var(--actionHover);
+  --dark:#0b2736;
 
   font-weight: 700;
 }
 
 h1{
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1;
   text-wrap: balance;
   margin-bottom: 2px;
 }
 h2{
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 400;
   font-style: italic;
   letter-spacing: 4px;
   margin-block: 2px;
+}
+input{
+  width: 240px;
+  border: solid 1px var(--dark);
 }
 

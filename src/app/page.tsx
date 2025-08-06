@@ -1,18 +1,23 @@
+import Link from "next/link";
 import ButtonAction from "../components/buttons/buttonAction";
 import { archivoBlack, montserrat } from "./layout";
 
 export default async function Home(){
   return (
     <main className="grid">
-      <section className="grid place-items-cente w-[1000px] h-[500px] py-6 border-stone-400 border-2 rounded-[25px] bg-[url('../../public/bgk-store.jpg')] bg-no-repeat bg-cover bg-center dark:border-[var(--primary)]" >
-        <header className="flex flex-col items-center py-4" >
+      <section className="grid place-items-cente justify-center w-[1000px] h-[500px] py-6 border-stone-400 border-2 rounded-[25px] bg-[url('../../public/bgk-store.jpg')] bg-no-repeat bg-cover bg-center dark:border-[var(--primary)]" >
+        <header className="flex flex-col items-center py-4 w-[350px]" >
           <p className="px-2 py-1 border-[var(--primary)] border-1 rounded-3xl text-[10px] w-fit" >Insumos y accesorios para tu bebe! 👶</p>
-          <h1 className={archivoBlack.className} >Baby Store</h1>
-          <h2>TODO PARA EL CUIDADO DE TU BEBE</h2>
+          <h1 className={archivoBlack.className} >
+            <span className="bg-gradient-to-r from-[var(--action)] to-[var(--actionHover)] bg-clip-text text-transparent" >baby</span> store, indumentaria y accesorios
+          </h1>
+          <h2>TODO PARA TU BEBE</h2>
           <div className="flex align-middle items-center justify-center gap-2 font-bold" >
-            <ButtonAction>
-              INGRESAR
-            </ButtonAction>
+            <Link href={"/auth"}>
+              <ButtonAction>
+                INGRESAR
+              </ButtonAction>
+            </Link>
             <p className="font-bold text-[10px]" >OBTENÉ UN -10%</p>
           </div>
         </header>
