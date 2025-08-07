@@ -27,6 +27,9 @@ h2{
   letter-spacing: 4px;
   margin-block: 2px;
 }
+h3{
+  font-size: 25px;
+}
 input{
   outline: none;
   width: 240px;
