@@ -9,9 +9,9 @@ export default async function Home(){
         <header className="flex flex-col items-center w-[380px]" >
           <p className="px-2 py-1 border-[var(--primary)] border-1 rounded-3xl text-[10px] w-fit" >¡Insumos y accesorios para tu bebe!</p>
           <h1 className={`${archivoBlack.className} grid text-center mt-3`} >
-            <span className="flex justify-center gap-2">
+            <span className="flex items-center justify-center gap-1">
               <span 
-                className="flex text-center w-fit h-fit bg-gradient-to-r from-[var(--action)] to-[var(--actionHover)] bg-clip-text text-transparent"
+                className="flex text-center items-center pb-1 -mb-1 gap-1 bg-gradient-to-r from-[var(--action)] to-[var(--actionHover)] bg-clip-text text-transparent"
               >
                 baby
                 <img 
