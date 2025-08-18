@@ -11,7 +11,7 @@ export default function Navbar(){
             >
                 <div className="flex items-center justify-start gap-5">
                     <Link href={"/"}>
-                    <img src="/favicon.ico" alt="" className="bg-[var(--white)] hover:bg-[var(--actionHoverButton)] transition duration-500 w-9 border-2 rounded-3xl border-[var(--white)] object-contain" />
+                    <img src="/favicon.ico" alt="" className="aspect-square bg-[var(--layer)] hover:bg-[var(--action)] transition duration-500 w-9 rounded-3xl object-contain" />
                     </Link>
                     <Link 
                         className="hover:text-[var(--actionHoverButton)] transition duration-500" 
