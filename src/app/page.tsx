@@ -1,11 +1,12 @@
 import Link from "next/link";
 import ButtonAction from "../components/buttons/buttonAction";
-import { archivoBlack, montserrat } from "./layout";
+import { archivoBlack } from "./layout";
+import { Newsaletter } from "../components/Newsletter";
 
 export default async function Home(){
   return (
-    <main className="grid">
-      <section className="grid place-items-cente justify-center w-[1000px] h-[500px] py-6 border-stone-400 border-2 rounded-[25px] bg-[url('../../public/bgk-store.jpg')] bg-no-repeat bg-cover bg-center dark:border-[var(--primary)]" >
+    <main className="grid gap-4">
+      <section className="grid place-items-cente justify-center w-[1000px] h-[500px] py-6 border-[var(--border)] border-2 rounded-[25px] bg-[url('../../public/bgk-store.jpg')] bg-no-repeat bg-cover bg-center dark:border-[var(--primary)]" >
         <header className="flex flex-col items-center w-[380px]" >
           <p className="px-2 py-1 border-[var(--primary)] border-1 rounded-3xl text-[10px] w-fit" >¡Insumos y accesorios para tu bebe!</p>
           <h1 className={`${archivoBlack.className} grid text-center mt-3`} >
@@ -35,6 +36,7 @@ export default async function Home(){
           </div>
         </header>
       </section>
+      <Newsaletter/>
     </main>
   );
 }

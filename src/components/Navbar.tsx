@@ -7,7 +7,7 @@ import Store from "./buttons/store";
 export default function Navbar(){
     return(
         <aside className="flex items-center justify-between w-[1000px] gap-1 pb-2 mb-2">
-            <div className="flex items-center justify-between w-[745px] text-[10px] p-1 border-2 rounded-3xl border-gray-400 bg-[var(--layer)] dark:text-[var(--primary)] dark:border-[var(--primary)]"
+            <div className="flex items-center justify-between w-[745px] text-[10px] p-1 border-2 rounded-3xl border-[var(--border)] bg-[var(--layer)] dark:text-[var(--primary)] dark:border-[var(--primary)]"
             >
                 <div className="flex items-center justify-start gap-5">
                     <Link href={"/"}>
@@ -31,7 +31,7 @@ export default function Navbar(){
                     <Meta/>
                 </div>
             </div>
-            <div className="flex items-center justify-center gap-1 text-[10px] p-1 border-2 rounded-3xl border-gray-400 bg-[var(--layer)] dark:text-[var(--primary)] dark:border-[var(--primary)]"
+            <div className="flex items-center justify-center gap-1 text-[10px] p-1 border-2 rounded-3xl border-[var(--border)] bg-[var(--layer)] dark:text-[var(--primary)] dark:border-[var(--primary)]"
             >
                 <Store/>
                 <Link href={"/auth"}>
