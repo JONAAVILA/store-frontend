@@ -7,6 +7,7 @@
   --border:#818181;
   --action: #7ebaff;
   --white:#FFFFFF;
+  --grey:#E6E6E6;
   --layer:#ffc7c74d;
   --actionHover: #ff68f2;
 
@@ -18,7 +19,7 @@
 
 h1{
   font-size: 50px;
-  line-height: 1;
+  line-height: .9;
   text-wrap: balance;
   margin-bottom: 2px;
 }
@@ -33,14 +34,21 @@ h2{
 h3{
   font-size: 25px;
 }
+p{
+  font-size: 10px;
+}
 input{
   outline: none;
-  width: 240px;
-  border: solid 2px var(--white);
-  background-color: var(--action);
-  border-radius: 15px;
+  width: 280px;
+  border: solid 2px var(--border);
+  background-color: var(--grey);
+  border-radius: 20px;
   font-size: 12px;
-  padding: 5px 10px;
+  padding: 10px;
   color: var(--secundary);
+}
+label{
+  color: var(--secundary);
+  font-weight: normal;
 }
 

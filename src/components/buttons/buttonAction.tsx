@@ -1,12 +1,13 @@
 import { ReactNode } from "react"
 
 type ButtonActionType = {
-    children: ReactNode
+    children: ReactNode,
+    color:String
 }
 
-export default function ButtonAction({children}:ButtonActionType){
+export default function ButtonAction({children,color}:ButtonActionType){
     return(
-        <button className="group flex items-center w-fit bg-[var(--action)] p-1 gap-4 rounded-4xl text-[12px] border-2 border-neutral-50 hover:bg-[var(--actionHover)] transition">
+        <button className={`${color ? 'bg-[var(--grey)] border-[var(--border)]':'bg-[var(--action)] border-[var(--white)]'} group flex items-center w-fit bg-[var(--action)] p-1 gap-4 rounded-4xl text-[12px] border-2 hover:bg-[var(--actionHover)] transition`}>
             <div className="grid place-items-center text-[10px] pl-2 group-hover:text-neutral-50">
                 {children}
             </div>
