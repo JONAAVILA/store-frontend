@@ -9,6 +9,9 @@
   --white:#FFFFFF;
   --layer:#ffc7c74d;
   --actionHover: #ff68f2;
+
+  --gradient-1:#e900d5;
+  --gradient-2:#005fec;
   --dark:#0b2736;
   font-weight: 700;
 }
@@ -25,6 +28,7 @@ h2{
   font-style: italic;
   letter-spacing: 4px;
   margin-block: 2px;
+
 }
 h3{
   font-size: 25px;

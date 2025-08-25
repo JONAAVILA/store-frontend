@@ -12,7 +12,7 @@ export default async function Home(){
           <h1 className={`${archivoBlack.className} grid text-center mt-3`} >
             <span className="flex items-center justify-center gap-1">
               <span 
-                className="flex text-center items-center pb-1 -mb-1 gap-1 bg-gradient-to-r from-[var(--action)] to-[var(--actionHover)] bg-clip-text text-transparent"
+                className="flex text-center items-center pb-1 -mb-1 gap-1 bg-gradient-to-r from-[var(--gradient-1)] to-[var(--gradient-2)] bg-clip-text text-transparent"
               >
                 baby
                 <img 
