@@ -55,7 +55,7 @@ input{
   font-size: 12px;
   padding: 10px;
   color: var(--secundary);
-  cursor: url('../../public/pointer.svg'),auto;
+  cursor: url('../../public/pointer-text.svg'),auto;
 }
 label{
   color: var(--secundary);

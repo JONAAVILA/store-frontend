@@ -16,6 +16,7 @@ export default function LoginForm(){
                             type="text" 
                             id="email"
                             name="email"
+                            autoComplete="off"
                             required
                         />
                         <label 
@@ -31,6 +32,7 @@ export default function LoginForm(){
                             type="text" 
                             id="password"
                             name="password"
+                            autoComplete="off"
                             required
                         />
                         <label 

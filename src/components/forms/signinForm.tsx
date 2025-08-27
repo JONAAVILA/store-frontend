@@ -17,6 +17,7 @@ export default function SigninForm(){
                             type="text" 
                             id="email"
                             name="email"
+                            autoComplete="off"
                             required
                         />
                         <label 
@@ -31,6 +32,7 @@ export default function SigninForm(){
                             type="text" 
                             id="password"
                             name="password"
+                            autoComplete="off"
                             required
                         />
                         <label 
