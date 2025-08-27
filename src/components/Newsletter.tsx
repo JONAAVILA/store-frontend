@@ -10,8 +10,8 @@ export function Newsaletter() {
                     <h2>MANTENETÉ AL TANTO DE LAS OFERTAS O NUEVOS ARRIBOS</h2>
                     <div className="flex items-center">
                         <input type="text" />
-                        <ButtonAction>
-                            suscribirse
+                        <ButtonAction color={true}>
+                            SUSCRIBIRSE
                         </ButtonAction>
                     </div>
                 </div>

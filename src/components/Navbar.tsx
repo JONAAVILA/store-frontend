@@ -35,7 +35,7 @@ export default function Navbar(){
             >
                 <Store/>
                 <Link href={"/auth"}>
-                    <ButtonAction>
+                    <ButtonAction color={true}>
                         INGRESAR / REGISTRARSE
                     </ButtonAction>
                 </Link>

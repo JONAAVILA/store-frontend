@@ -15,6 +15,15 @@
   --gradient-2:#005fec;
   --dark:#0b2736;
   font-weight: 700;
+  cursor: url('../../public/cursor.svg'),auto;
+}
+:root::-webkit-scrollbar{
+  width: 10px;
+}
+:root::-webkit-scrollbar-thumb{
+  border: 3px solid var(--primary);
+  border-radius: 6px;
+  background-color: var(--border);
 }
 
 h1{
@@ -46,9 +55,15 @@ input{
   font-size: 12px;
   padding: 10px;
   color: var(--secundary);
+  cursor: url('../../public/pointer.svg'),auto;
 }
 label{
   color: var(--secundary);
   font-weight: normal;
+}
+a{
+  font-size: 10px;
+  font-weight: 100;
+  cursor: url('../../public/pointer.svg'),auto;
 }
 

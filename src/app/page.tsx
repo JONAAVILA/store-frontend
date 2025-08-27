@@ -28,7 +28,7 @@ export default async function Home(){
           <h2>TODO PARA TU BEBE</h2>
           <div className="flex align-middle items-center justify-center gap-2 font-bold" >
             <Link href={"/auth"}>
-              <ButtonAction>
+              <ButtonAction color={true}>
                 INGRESAR
               </ButtonAction>
             </Link>
